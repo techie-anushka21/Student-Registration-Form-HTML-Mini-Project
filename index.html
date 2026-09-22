@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <h3>Welcome to Success Institute! You will be able to gain coding skills which will be useful for your career. Kindly fill out the below form to complete your application for skill development classes.</h3>
+
+    <br>
+
+    <!--Form area-->
+    
+    <form>
+        <ol>
+            <li>
+                <label for="name">Student's name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+            </li>
+
+            <br><br>
+
+            <li>
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="dob">
+            </li>
+
+            <br><br>
+
+            <li> 
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                   <option value="">--Select Gender--</option>
+                   <option value="m">Male</option>
+                   <option value="f">Female</option>
+                   <option value="o">Other</option>
+                </select>
+            </li>
+
+            <br><br>
+        
+            <li>
+                <label>Education Level:</label>
+
+                <input type="radio" id="tenth" name="educationLevel" value="10th">
+                <label for="tenth">10th</label>
+
+                <input type="radio" id="twelfth" name="educationLevel" value="12th">
+                <label for="twelfth">12th</label>
+
+                <input type="radio" id="diploma" name="educationLevel" value="diploma">
+                <label for="diploma">Diploma</label>
+
+                <input type="radio" id="graduate" name="educationLevel" value="graduate">
+                <label for="graduate">Graduate</label>
+
+                <input type="radio" id="pg" name="educationLevel" value="postgraduate">
+                <label for="pg">Post Graduate</label>
+            </li>
+
+            <br><br>
+
+            <li>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber">
+            </li>
+
+            <br><br>
+
+            <li>
+               <label for="address">Residential Address:</label>
+               <br><br>
+               <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+            </li>
+
+            <br><br>
+
+            <li>
+                <label>Select the course(s):</label>
+
+                <br>
+
+                <input type="checkbox" id="html" name="Course" value="HTML">
+                <label for="html">HTML</label>
+
+                <br>
+
+                <input type="checkbox" id="css" name="Course" value="CSS">
+                <label for="css">CSS</label>
+
+                <br>
+
+                <input type="checkbox" id="js" name="Course" value="JS">
+                <label for="js">JavaScript</label>
+
+                <br>
+
+                <input type="checkbox" id="react" name="Course" value="React">
+                <label for="react">React</label>
+
+                <br>
+
+                <input type="checkbox" id="c" name="Course" value="C">
+                <label for="c">C</label>
+
+                <br>
+
+                <input type="checkbox" id="cpp" name="Course" value="CPP">
+                <label for="cpp">C++</label>
+
+                <br>
+
+                <input type="checkbox" id="python" name="Course" value="Python">
+                <label for="python">Python</label>
+
+                <br>
+
+                <input type="checkbox" id="java" name="Course" value="Java">
+                <label for="java">Java</label>
+
+                <br>
+            </li>
+        </ol>
+
+        <p>Fee structure for the session 2026-27 is as follows: -</p>
+    
+        <!--Fee structure table-->
+        <table border="1">
+            <tr>
+                <th>S.no.</th>
+                <th>Course Name</th>
+                <th>Fees</th>
+                <th>Timings</th>
+            </tr>
+
+            <tr>
+                <td>1.</td>
+                <td>HTML</td>
+                <td>Rs. 1000</td>
+                <td>9am-10am</td>
+            </tr>
+
+            <tr>
+                <td>2.</td>
+                <td>CSS</td>
+                <td>Rs. 1100</td>
+                <td>10am-11am</td>
+            </tr>
+
+            <tr>
+                <td>3.</td>
+                <td>JavaScript</td>
+                <td>Rs. 1500</td>
+                <td>11am-12pm</td>
+            </tr>
+
+            <tr>
+                <td>4.</td>
+                <td>C</td>
+                <td>Rs. 1000</td>
+                <td>12pm-1pm</td>
+            </tr>
+
+            <tr>
+                <td>5.</td>
+                <td>C++</td>
+                <td>Rs. 1500</td>
+                <td>2pm-3pm</td>
+            </tr>
+
+            <tr>
+                <td>6.</td>
+                <td>Python</td>
+                <td>Rs. 1500</td>
+                <td>3pm-4pm</td>
+            </tr>
+
+            <tr>
+                <td>7.</td>
+                <td>Java</td>
+                <td>Rs. 2000</td>
+                <td>4pm-5pm</td>
+            </tr>
+        </table>
+
+        <p><b>Note:</b></p>
+            <ol>
+                <li>The fees will be taken on monthly basis (at the starting of the month).</li>
+                <li>Kindly adhere to the institution timings else disciplinary actions will be taken against the student.</li>
+            </ol>
+        
+        <button id="submitButton" type="submit">Submit</button>
+    </form>    
+</body>
+</html>
